@@ -42,3 +42,11 @@ function isOdd(n) {
 
 console.log(isOdd(5)); // Example usage of the isOdd function
 
+// This function takes two numbers as input, multiplies them, and returns the result.
+// It is useful for calculations that require multiplying two numbers, such as in financial applications or data processing.
+// The function uses the multiplication operator to compute the product of the two numbers and returns the result.
+function multiply(a, b) {
+  return a * b;
+}
+
+console.log(multiply(5, 3)); // Example usage of the multiply function
