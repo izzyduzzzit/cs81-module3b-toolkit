@@ -21,3 +21,13 @@ function square(n) {
 }
 
 console.log(square(5)); // Example usage of the square function
+
+// This function takes a number as input and determines if it is even.
+// It is useful for applications that require checking the parity of a number, such as in algorithms or data validation.
+// The function uses the modulus operator to check if the number is divisible by 2, which indicates that it is even.
+// If the number is even, it returns true; otherwise, it returns false.
+function isEven(n) {
+  return n % 2 === 0;
+}
+
+console.log(isEven(5)); // Example usage of the isEven function
