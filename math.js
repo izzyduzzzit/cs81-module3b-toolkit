@@ -31,3 +31,14 @@ function isEven(n) {
 }
 
 console.log(isEven(5)); // Example usage of the isEven function
+
+// This function takes a number as input and determines if it is odd.
+// It is useful for applications that require checking the parity of a number, such as in algorithms or data validation.
+// The function uses the modulus operator to check if the number is not divisible by 2, which indicates that it is odd.
+// If the number is odd, it returns true; otherwise, it returns false.
+function isOdd(n) {
+  return n % 2 !== 0;
+}
+
+console.log(isOdd(5)); // Example usage of the isOdd function
+
