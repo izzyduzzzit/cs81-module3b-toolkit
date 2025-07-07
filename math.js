@@ -10,3 +10,14 @@
 function double(n) {
   return n * 2;
 }
+
+console.log(double(5)); // Example usage of the double function
+
+// This function takes a number as input and returns its square.
+// It is useful for calculations that require squaring a number, such as in geometry or physics.
+// The function is straightforward and uses the multiplication operator to compute the square.
+function square(n) {
+  return n * n;
+}
+
+console.log(square(5)); // Example usage of the square function
