@@ -11,6 +11,7 @@ function double(n) {
   return n * 2;
 }
 
+// Example usage of the double function
 console.log(double(5)); // Example usage of the double function
 
 // This function takes a number as input and returns its square.
@@ -20,6 +21,7 @@ function square(n) {
   return n * n;
 }
 
+// Example usage of the square function
 console.log(square(5)); // Example usage of the square function
 
 // This function takes a number as input and determines if it is even.
@@ -30,6 +32,7 @@ function isEven(n) {
   return n % 2 === 0;
 }
 
+// Example usage of the isEven function
 console.log(isEven(5)); // Example usage of the isEven function
 
 // This function takes a number as input and determines if it is odd.
@@ -40,6 +43,7 @@ function isOdd(n) {
   return n % 2 !== 0;
 }
 
+// Example usage of the isOdd function
 console.log(isOdd(5)); // Example usage of the isOdd function
 
 // This function takes two numbers as input, multiplies them, and returns the result.
@@ -49,4 +53,5 @@ function multiply(a, b) {
   return a * b;
 }
 
+// Example usage of the multiply function
 console.log(multiply(5, 3)); // Example usage of the multiply function
